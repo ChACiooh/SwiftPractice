@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4708361F1E955C1800E47F09 /* RoomInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4708361E1E955C1800E47F09 /* RoomInfoViewController.swift */; };
+		470836211E95615300E47F09 /* ReservationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470836201E95615300E47F09 /* ReservationListViewController.swift */; };
+		470836231E9561B400E47F09 /* ReservedRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470836221E9561B400E47F09 /* ReservedRoomViewController.swift */; };
+		4709A9E41E82C18A002443F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709A9E31E82C18A002443F5 /* AppDelegate.swift */; };
+		4709A9E61E82C18A002443F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709A9E51E82C18A002443F5 /* ViewController.swift */; };
+		4709A9E91E82C18A002443F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4709A9E71E82C18A002443F5 /* Main.storyboard */; };
+		4709A9EB1E82C18A002443F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4709A9EA1E82C18A002443F5 /* Assets.xcassets */; };
+		4709A9EE1E82C18A002443F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4709A9EC1E82C18A002443F5 /* LaunchScreen.storyboard */; };
+		4709A9F61E82C245002443F5 /* MeetingRoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709A9F51E82C245002443F5 /* MeetingRoomListViewController.swift */; };
+		47608A4F1E928E6D0030527C /* BranchListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47608A4E1E928E6D0030527C /* BranchListTableViewController.swift */; };
+		47608A511E928E8E0030527C /* ServicelistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47608A501E928E8E0030527C /* ServicelistViewController.swift */; };
+		47B0E19A1E8E485F0097B2DB /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B0E1991E8E485F0097B2DB /* DataCenter.swift */; };
+		47FC66491E9A1BFC00BA02E7 /* TintColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FC66481E9A1BFC00BA02E7 /* TintColorViewController.swift */; };
+		47FC664B1E9A21D100BA02E7 /* EquipmentsDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47FC664A1E9A21D100BA02E7 /* EquipmentsDefault.plist */; };
+		47FC664D1E9A236C00BA02E7 /* EquipmentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FC664C1E9A236C00BA02E7 /* EquipmentsListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4708361E1E955C1800E47F09 /* RoomInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomInfoViewController.swift; sourceTree = "<group>"; };
+		470836201E95615300E47F09 /* ReservationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationListViewController.swift; sourceTree = "<group>"; };
+		470836221E9561B400E47F09 /* ReservedRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservedRoomViewController.swift; sourceTree = "<group>"; };
+		4709A9E01E82C18A002443F5 /* MeetingRoooms2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingRoooms2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4709A9E31E82C18A002443F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4709A9E51E82C18A002443F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4709A9E81E82C18A002443F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4709A9EA1E82C18A002443F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4709A9ED1E82C18A002443F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4709A9EF1E82C18A002443F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4709A9F51E82C245002443F5 /* MeetingRoomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingRoomListViewController.swift; sourceTree = "<group>"; };
+		47608A4E1E928E6D0030527C /* BranchListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchListTableViewController.swift; sourceTree = "<group>"; };
+		47608A501E928E8E0030527C /* ServicelistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicelistViewController.swift; sourceTree = "<group>"; };
+		47B0E1991E8E485F0097B2DB /* DataCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
+		47FC66481E9A1BFC00BA02E7 /* TintColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TintColorViewController.swift; path = ../TintColorViewController.swift; sourceTree = "<group>"; };
+		47FC664A1E9A21D100BA02E7 /* EquipmentsDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EquipmentsDefault.plist; sourceTree = "<group>"; };
+		47FC664C1E9A236C00BA02E7 /* EquipmentsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquipmentsListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4709A9DD1E82C18A002443F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4709A9D71E82C18A002443F5 = {
+			isa = PBXGroup;
+			children = (
+				4709A9E21E82C18A002443F5 /* MeetingRoooms2 */,
+				4709A9E11E82C18A002443F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4709A9E11E82C18A002443F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4709A9E01E82C18A002443F5 /* MeetingRoooms2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4709A9E21E82C18A002443F5 /* MeetingRoooms2 */ = {
+			isa = PBXGroup;
+			children = (
+				4709A9E31E82C18A002443F5 /* AppDelegate.swift */,
+				47FC664A1E9A21D100BA02E7 /* EquipmentsDefault.plist */,
+				47FC66481E9A1BFC00BA02E7 /* TintColorViewController.swift */,
+				4709A9E51E82C18A002443F5 /* ViewController.swift */,
+				4709A9E71E82C18A002443F5 /* Main.storyboard */,
+				47FC664C1E9A236C00BA02E7 /* EquipmentsListViewController.swift */,
+				470836221E9561B400E47F09 /* ReservedRoomViewController.swift */,
+				470836201E95615300E47F09 /* ReservationListViewController.swift */,
+				4708361E1E955C1800E47F09 /* RoomInfoViewController.swift */,
+				47B0E1991E8E485F0097B2DB /* DataCenter.swift */,
+				47608A4E1E928E6D0030527C /* BranchListTableViewController.swift */,
+				47608A501E928E8E0030527C /* ServicelistViewController.swift */,
+				4709A9F51E82C245002443F5 /* MeetingRoomListViewController.swift */,
+				4709A9EA1E82C18A002443F5 /* Assets.xcassets */,
+				4709A9EC1E82C18A002443F5 /* LaunchScreen.storyboard */,
+				4709A9EF1E82C18A002443F5 /* Info.plist */,
+			);
+			path = MeetingRoooms2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4709A9DF1E82C18A002443F5 /* MeetingRoooms2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4709A9F21E82C18A002443F5 /* Build configuration list for PBXNativeTarget "MeetingRoooms2" */;
+			buildPhases = (
+				4709A9DC1E82C18A002443F5 /* Sources */,
+				4709A9DD1E82C18A002443F5 /* Frameworks */,
+				4709A9DE1E82C18A002443F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingRoooms2;
+			productName = MeetingRoooms2;
+			productReference = 4709A9E01E82C18A002443F5 /* MeetingRoooms2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4709A9D81E82C18A002443F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "표영권";
+				TargetAttributes = {
+					4709A9DF1E82C18A002443F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4709A9DB1E82C18A002443F5 /* Build configuration list for PBXProject "MeetingRoooms2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4709A9D71E82C18A002443F5;
+			productRefGroup = 4709A9E11E82C18A002443F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4709A9DF1E82C18A002443F5 /* MeetingRoooms2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4709A9DE1E82C18A002443F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4709A9EE1E82C18A002443F5 /* LaunchScreen.storyboard in Resources */,
+				4709A9EB1E82C18A002443F5 /* Assets.xcassets in Resources */,
+				47FC664B1E9A21D100BA02E7 /* EquipmentsDefault.plist in Resources */,
+				4709A9E91E82C18A002443F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4709A9DC1E82C18A002443F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4708361F1E955C1800E47F09 /* RoomInfoViewController.swift in Sources */,
+				47608A4F1E928E6D0030527C /* BranchListTableViewController.swift in Sources */,
+				4709A9E61E82C18A002443F5 /* ViewController.swift in Sources */,
+				47FC664D1E9A236C00BA02E7 /* EquipmentsListViewController.swift in Sources */,
+				470836211E95615300E47F09 /* ReservationListViewController.swift in Sources */,
+				470836231E9561B400E47F09 /* ReservedRoomViewController.swift in Sources */,
+				4709A9E41E82C18A002443F5 /* AppDelegate.swift in Sources */,
+				47B0E19A1E8E485F0097B2DB /* DataCenter.swift in Sources */,
+				47608A511E928E8E0030527C /* ServicelistViewController.swift in Sources */,
+				4709A9F61E82C245002443F5 /* MeetingRoomListViewController.swift in Sources */,
+				47FC66491E9A1BFC00BA02E7 /* TintColorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4709A9E71E82C18A002443F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4709A9E81E82C18A002443F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4709A9EC1E82C18A002443F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4709A9ED1E82C18A002443F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4709A9F01E82C18A002443F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4709A9F11E82C18A002443F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4709A9F31E82C18A002443F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetingRoooms2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codershigh.MeetingRoooms2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4709A9F41E82C18A002443F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetingRoooms2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codershigh.MeetingRoooms2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4709A9DB1E82C18A002443F5 /* Build configuration list for PBXProject "MeetingRoooms2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4709A9F01E82C18A002443F5 /* Debug */,
+				4709A9F11E82C18A002443F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4709A9F21E82C18A002443F5 /* Build configuration list for PBXNativeTarget "MeetingRoooms2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4709A9F31E82C18A002443F5 /* Debug */,
+				4709A9F41E82C18A002443F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4709A9D81E82C18A002443F5 /* Project object */;
+}
